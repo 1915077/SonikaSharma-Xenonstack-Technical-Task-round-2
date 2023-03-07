@@ -71,7 +71,8 @@ initially our html page will look like this:-
 
 <img width="1728" alt="Screenshot 2023-03-07 at 7 48 29 PM" src="https://user-images.githubusercontent.com/54636895/223453715-2e166792-3af7-4f7f-af95-8d1bcdfa7921.png">
 
-![Uploading Screenshot 2023-03-07 at 7.48.42 PM.png…]()
+
+<img width="1728" alt="Screenshot 2023-03-07 at 7 48 42 PM" src="https://user-images.githubusercontent.com/54636895/223454222-42f5eae5-7490-45f2-8824-bb2608c843e2.png">
 
 
 <img width="1728" alt="Screenshot 2023-03-07 at 7 50 24 PM" src="https://user-images.githubusercontent.com/54636895/223453888-202ad1fc-513f-4580-ba66-eea039ab8ccc.png">
