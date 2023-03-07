@@ -79,4 +79,16 @@ router.post('/landDetails', async (req,res) => {
     }
 })
 
+router.post('/contactUs', async (req,res) => {
+    try {
+        const { name, email, message, username } = req.body;
+        const query = `insert into contact_us_feedback(name, email, message, username) values ("${name}", "${email}", "${message}", "${username}")`;
+        await getData(query);
+        return res.status(200).send("ok");
+    }
+    catch (err) {
+        res.status(500).send(err);
+    }
+})
+
 module.exports = router;

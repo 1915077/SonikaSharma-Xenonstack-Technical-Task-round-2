@@ -32,6 +32,7 @@ export default function Nav(props) {
           <li><Link to="/" style={{fontFamily: 'Edu SA Beginner', fontSize: '22px'}}>Home</Link></li>
           <li><Link to="/buy" style={{fontFamily: 'Edu SA Beginner', fontSize: '22px'}}>See all lands</Link></li>
           <li><Link to="/register" style={{fontFamily: 'Edu SA Beginner', fontSize: '22px'}}>Register</Link></li>
+          <li><Link to="/contact" style={{fontFamily: 'Edu SA Beginner', fontSize: '22px'}}>Contact US</Link></li>
           <li style={{fontFamily: 'Edu SA Beginner', fontSize: '22px', color: 'white', cursor: 'pointer'}} onClick={onUserLoginLogoutClickHandler}>
             {!!state.user.user ? 'logout' : 'login'}
           </li>

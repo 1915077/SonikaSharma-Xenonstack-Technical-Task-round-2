@@ -36,9 +36,9 @@ connection.connect(function (err) {
 //     console.log("result is", results);
 // });
 
-connection.query('CREATE TABLE land_details_v2 (id int AUTO_INCREMENT, name varchar(255), line1 varchar(255), line2 varchar(255), city varchar(255), state varchar(255), postalCode varchar(255), landId varchar(255), imageUrl varchar(255), price varchar(255), primary key (id))', function (error, results, fields) {
-    if (error) throw error;
-});
+// connection.query('CREATE TABLE land_details_v2 (id int AUTO_INCREMENT, name varchar(255), line1 varchar(255), line2 varchar(255), city varchar(255), state varchar(255), postalCode varchar(255), landId varchar(255), imageUrl varchar(255), price varchar(255), primary key (id))', function (error, results, fields) {
+//     if (error) throw error;
+// });
 
 // connection.query('SELECT * from land_details', function (error, results, fields) {
 //     if (error) throw error;
@@ -46,8 +46,13 @@ connection.query('CREATE TABLE land_details_v2 (id int AUTO_INCREMENT, name varc
 // });
 
 
-connection.query('TRUNCATE TABLE land_details', function (error, results, fields) {
+connection.query('CREATE TABLE contact_us_feedback (id int AUTO_INCREMENT,name varchar(255), email varchar(255), feedback longtext, primary key (id))', function (error, results, fields) {
     if (error) throw error;
 });
+
+
+// connection.query('TRUNCATE TABLE land_details', function (error, results, fields) {
+//     if (error) throw error;
+// });
 
 connection.end();
