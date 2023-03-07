@@ -37,13 +37,12 @@ The name of the website is "Patrimony" which is based on the given topic Land Se
 
 ==================================================================================================
 
-How To ----->
-                   :-
-Run on local host
 
-npm start
+Run on Local Host
 
-Go to http://localhost:8000/
+1.) npm start
+
+2.) Go to http://localhost:8000/
 
 
 ====================================================================================================
