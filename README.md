@@ -76,6 +76,10 @@ initially our html page will look like this:-
 
 <img width="1728" alt="Screenshot 2023-03-07 at 7 50 24 PM" src="https://user-images.githubusercontent.com/54636895/223453888-202ad1fc-513f-4580-ba66-eea039ab8ccc.png">
 
+<img width="1728" alt="Screenshot 2023-03-07 at 8 59 44 PM" src="https://user-images.githubusercontent.com/54636895/223469123-f6fae108-346c-4889-bb5b-7a34f92f70d3.png">
+
+
+<img width="1728" alt="Screenshot 2023-03-07 at 9 00 14 PM" src="https://user-images.githubusercontent.com/54636895/223469184-efc68d3f-3854-44de-8c14-92f9a651b456.png">
 
 
 THANK YOU FOR VISITING
