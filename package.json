@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd frontend && npm i && npm i create-react-scripts -g && npm run build && cd .. && node ./index.js",
+    "start": "node ./index.js",
     "dev": "nodemon ./index.js",
-    "build": "npm i && node ./index.js"
+    "build": "npm i"
   },
   "author": "",
   "license": "ISC",
